@@ -10,9 +10,9 @@ if(!empty($_POST['password'])):
 
 	$message = '';
 
-	if($_POST['password'] == "SuperSecretPassword"){
+	if($_POST['password'] == getenv('PASSWORD_1')){
         $message = file_get_contents('./secrets/secret_1.txt', true);
-	} elseif ($_POST['password'] == "AnotherSuperSecretPassword"){
+	} elseif ($_POST['password'] == getenv('PASSWORD_2')){
         $message = file_get_contents('./secrets/secret_2.txt', true);
 	} else {
 		$message = 'Sorry, the password is wrong';
