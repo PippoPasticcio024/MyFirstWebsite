@@ -4,7 +4,7 @@
 
 <div class="footer">
     <span> &copy;</span>
-    <a href="url">Github project</a>
+    <a href="https://github.com/PippoPasticcio024/MyFirstWebsite">Github project</a>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
